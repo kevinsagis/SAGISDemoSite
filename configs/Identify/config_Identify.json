@@ -1,0 +1,548 @@
+{
+  "identifylayeroption": "visible",
+  "identifytolerance": 5,
+  "defaultzoomscale": 5000,
+  "keepidentifyactive": false,
+  "returngeometryforzoom": true,
+  "enablelineselect": true,
+  "enablefreehandlineselect": true,
+  "enablepolylineselect": false,
+  "enableextentselect": false,
+  "enabletriangleselect": false,
+  "enablepolyselect": true,
+  "enablefreehandpolyselect": true,
+  "enablecircleselect": true,
+  "enableellipseselect": false,
+  "enablegraphicclickinfo": true,
+  "usemaptime": false,
+  "infoautoclosemilliseconds": 1000,
+  "autoactivatedtool": "point",
+  "disablelayerdropdown": false,
+  "disablealllayerschoice": false,
+  "replacenullswithemptystring": true,
+  "enablemouseoverrecordinfo": false,
+  "enablemouseovergraphicsinfo": true,
+  "layers": {
+    "onlythese": false,
+    "layer": [
+      {
+        "name": "Parcels",
+        "url": "http://sagiscloud.thempc.org/arcgis/rest/services/sagis_org/SAGIS1/MapServer",
+        "id": 24,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "PIN",
+              "alias": "PIN"
+            },
+            {
+              "name": "NAME",
+              "alias": "Owner's Name"
+            },
+            {
+              "name": "ADDRESS_1",
+              "alias": "Owner's Address 1",
+              "popuponly": true
+            },
+            {
+              "name": "ADDRESS_2",
+              "alias": "Owner's Address 2",
+              "popuponly": true
+            },
+            {
+              "name": "ADDRESS_3",
+              "alias": "Owner's Address 3",
+              "popuponly": true
+            },
+            {
+              "name": "CITY",
+              "alias": "City",
+              "popuponly": true
+            },
+            {
+              "name": "STATE",
+              "alias": "State",
+              "popuponly": true
+            },
+            {
+              "name": "ZIP_CODE",
+              "alias": "Zip Code",
+              "popuponly": true
+            },
+            {
+              "name": "PROP_ADDRESS",
+              "alias": "Property Address"
+            },
+            {
+              "name": "STREET_LIGHTING",
+              "alias": "Street Lighting",
+              "popuponly": true
+            },
+            {
+              "name": "MUN_CODE",
+              "alias": "Municipal Code",
+              "popuponly": true
+            },
+            {
+              "name": "NEIGHBORHOOD_CODE",
+              "alias": "Neighborhood Code",
+              "popuponly": true
+            },
+            {
+              "name": "LAND_UNITS",
+              "alias": "Land Units",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LAND_FRONTAGE",
+              "alias": "Land Frontage",
+              "popuponly": true
+            },
+            {
+              "name": "LAND_DEPTH",
+              "alias": "Land Depth",
+              "popuponly": true
+            },
+            {
+              "name": "LAND_TYPE",
+              "alias": "Land Type",
+              "popuponly": true
+            },
+            {
+              "name": "REAL_ESTATE_VALUE",
+              "alias": "Real Estate Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LAND_VALUE",
+              "alias": "Land Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "BUILDING_VALUE",
+              "alias": "Building Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "PROP_CLASS_CODES",
+              "alias": "Property Class",
+              "popuponly": true
+            },
+            {
+              "name": "LAND_USE_CODE",
+              "alias": "Land Use Code",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_PRICE",
+              "alias": "Sale Price",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SALE_YY",
+              "alias": "Sale Year",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_MM",
+              "alias": "Sale Month",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_DD",
+              "alias": "Sale Day",
+              "popuponly": true
+            },
+            {
+              "name": "TRANSIT_CODE",
+              "alias": "Transit Code",
+              "popuponly": true
+            },
+            {
+              "name": "APC_CODE",
+              "alias": "APC Code",
+              "popuponly": true
+            },
+            {
+              "name": "COMM_CAT",
+              "alias": "Commercial Category",
+              "popuponly": true
+            },
+            {
+              "name": "AGENT",
+              "alias": "Agent",
+              "popuponly": true
+            },
+            {
+              "name": "TOTAL_ASSESSMENT",
+              "alias": "Total Assessment",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LEGAL_1",
+              "alias": "Legal Description 1",
+              "popuponly": true
+            },
+            {
+              "name": "LEGAL_2",
+              "alias": "Legal Description 2",
+              "popuponly": true
+            },
+            {
+              "name": "ZONING",
+              "alias": "Zoning Code",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_OR_BOOK",
+              "alias": "Sale or Book",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_OR_PAGE",
+              "alias": "Sale or Page",
+              "popuponly": true
+            },
+            {
+              "name": "BASE_YR_VALUE",
+              "alias": "Base Year Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "BASE_YR_VAL_CPI",
+              "alias": "Base Year Value w/ CPI",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CAMA_LAND_VALUE",
+              "alias": "CAMA Land Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CAMA_MISC_VALUE",
+              "alias": "CAMA Misc Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CAMA_BLDG_VALUE",
+              "alias": "CAMA Building Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CAMA_TOTAL_VALUE",
+              "alias": "CAMA Total Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CHTXFER_FILLER",
+              "alias": "CHTXFER Filler"
+            },
+            {
+              "name": "ADTAB_TAD",
+              "alias": "Tax Allocation District (TAD)",
+              "popuponly": true
+            },
+            {
+              "name": "ADTAB_TAD_BYV",
+              "alias": "TAD Base Year Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "ADTAB_EZONE",
+              "alias": "Enterprise Zone",
+              "popuponly": true
+            },
+            {
+              "name": "GDATA_EZ",
+              "alias": "GData EZ",
+              "popuponly": true
+            },
+            {
+              "name": "TCR_DATE",
+              "alias": "TCR Date",
+              "isdate": true,
+              "popuponly": true
+            },
+            {
+              "name": "STNUM",
+              "alias": "Street Number",
+              "popuponly": true
+            },
+            {
+              "name": "STSHORTNAM",
+              "alias": "Street Short Name",
+              "popuponly": true
+            },
+            {
+              "name": "STPREFIX",
+              "alias": "Street Prefix",
+              "popuponly": true
+            },
+            {
+              "name": "STUNIT",
+              "alias": "Unit Number",
+              "popuponly": true
+            },
+            {
+              "name": "STNAME",
+              "alias": "Street Name",
+              "popuponly": true
+            },
+            {
+              "name": "CALCAC",
+              "alias": "Calculated Acreage",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "OWNERNAME",
+              "alias": "Owner Name",
+              "popuponly": true
+            },
+            {
+              "name": "FULLADDRESS",
+              "alias": "Full Address",
+              "popuponly": true
+            },
+            {
+              "name": "PROP_ADDRE2",
+              "alias": "Property Address 2",
+              "popuponly": true
+            },
+            {
+              "name": "ZIPCODE",
+              "alias": "Property Zip Code",
+              "popuponly": true
+            },
+            {
+              "name": "ZONEID",
+              "alias": "Calculated Zoning",
+              "popuponly": true
+            },
+            {
+              "name": "ZONE_DESC",
+              "alias": "Zoning Description",
+              "popuponly": true
+            },
+            {
+              "name": "ALDERID",
+              "alias": "Alderman",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "COMMID",
+              "alias": "Commissioner",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "NBHD_DESC",
+              "alias": "Neighborhood",
+              "popuponly": true
+            },
+            {
+              "name": "LANDUSE_DESC",
+              "alias": "Land Use",
+              "popuponly": true
+            },
+            {
+              "name": "FLOODID",
+              "alias": "Calculated Flood Zone",
+              "popuponly": true
+            },
+            {
+              "name": "ELEMENTARY",
+              "alias": "Elementary School",
+              "popuponly": true
+            },
+            {
+              "name": "MIDDLE",
+              "alias": "Middle School",
+              "popuponly": true
+            },
+            {
+              "name": "HIGH",
+              "alias": "High School",
+              "popuponly": true
+            },
+            {
+              "name": "VOT_PRECINCT",
+              "alias": "Voter Precinct",
+              "popuponly": true
+            },
+            {
+              "name": "STSUFFIX",
+              "alias": "Street Suffix",
+              "popuponly": true
+            },
+            {
+              "name": "ALDER_TXT",
+              "alias": "Alder Text",
+              "popuponly": true
+            },
+            {
+              "name": "NBHD_CODE",
+              "alias": "Neighborhood Code",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SHAPE_Length",
+              "alias": "Shape_Length",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SHAPE_Area",
+              "alias": "Shape_Area",
+              "isnumber": true,
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {
+          "link": [
+            {
+              "alias": "Property Tax Card",
+              "disablelinksifnull": true,
+              "disableinpopup": false,
+              "popuptype": "text",
+              "content": "http://boa.chathamcounty.org/Home/PropertyRecordCards.aspx?PIN={PIN}",
+              "icon": ""
+            }
+          ]
+        }
+      }
+    ],
+    "excludelayer": [
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/NatGeo_World_Map/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Ocean_Basemap/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/USA_Topo_Maps/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer"
+      },
+      {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/Imagery/Imagery_Tiles/MapServer"
+      },
+      {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/Imagery/Imagery_2013/MapServer"
+      },
+      {
+        "url": "http://sagisservices.thempc.org/saint/rest/services/Imagery/Imagery_2011/MapServer"
+      },
+      {
+        "name": "Chatham County"
+      }
+    ]
+  },
+  "symbols": {
+    "simplemarkersymbol": {
+      "color": [
+        68,
+        140,
+        203,
+        153
+      ],
+      "size": 8.000250000000001,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "outline": {
+        "color": [
+          255,
+          255,
+          255,
+          153
+        ],
+        "width": 0.75,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      }
+    },
+    "picturemarkersymbol": {
+      "url": "images/i_info.png",
+      "height": "20",
+      "width": "20",
+      "type": "esriPMS",
+      "angle": "0"
+    },
+    "simplelinesymbol": {
+      "color": [
+        68,
+        140,
+        203,
+        153
+      ],
+      "width": 2.25,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "simplefillsymbol": {
+      "color": [
+        68,
+        140,
+        203,
+        153
+      ],
+      "outline": {
+        "color": [
+          68,
+          140,
+          203,
+          153
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  }
+}

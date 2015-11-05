@@ -1,0 +1,505 @@
+{
+  "layers": [
+    {
+      "name": "Parcels",
+      "url": "http://sagiscloud.thempc.org/arcgis/rest/services/sagis_org/SAGIS1/MapServer/24",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "zoomScale": 10000,
+      "shareResult": true,
+      "addToAttrib": true,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Parcel 2015",
+            "textsearchlabel": "Parcel 2015",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "PIN",
+                    "label": "PIN",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "PIN is",
+                  "textsearchhint": "Parcel",
+                  "sqltext": "Upper(PIN) = Upper('[value]')",
+                  "operation": "stringOperatorIs"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "PIN",
+            "alias": "PIN"
+          },
+          {
+            "name": "NAME",
+            "alias": "Owner's Name"
+          },
+          {
+            "name": "ADDRESS_1",
+            "alias": "Owner's Address 1"
+          },
+          {
+            "name": "ADDRESS_2",
+            "alias": "Owner's Address 2"
+          },
+          {
+            "name": "ADDRESS_3",
+            "alias": "Owner's Address 3"
+          },
+          {
+            "name": "CITY",
+            "alias": "City"
+          },
+          {
+            "name": "STATE",
+            "alias": "State"
+          },
+          {
+            "name": "ZIP_CODE",
+            "alias": "Zip Code"
+          },
+          {
+            "name": "PROP_ADDRESS",
+            "alias": "Property Address"
+          },
+          {
+            "name": "STREET_LIGHTING",
+            "alias": "Street Lighting"
+          },
+          {
+            "name": "MUN_CODE",
+            "alias": "Municipal Code"
+          },
+          {
+            "name": "NEIGHBORHOOD_CODE",
+            "alias": "Neighborhood Code"
+          },
+          {
+            "name": "LAND_UNITS",
+            "alias": "Land Units",
+            "isnumber": true
+          },
+          {
+            "name": "LAND_FRONTAGE",
+            "alias": "Land Frontage"
+          },
+          {
+            "name": "LAND_DEPTH",
+            "alias": "Land Depth"
+          },
+          {
+            "name": "LAND_TYPE",
+            "alias": "Land Type"
+          },
+          {
+            "name": "REAL_ESTATE_VALUE",
+            "alias": "Real Estate Value",
+            "isnumber": true
+          },
+          {
+            "name": "LAND_VALUE",
+            "alias": "Land Value",
+            "isnumber": true
+          },
+          {
+            "name": "BUILDING_VALUE",
+            "alias": "Building Value",
+            "isnumber": true
+          },
+          {
+            "name": "PROP_CLASS_CODES",
+            "alias": "Property Class"
+          },
+          {
+            "name": "LAND_USE_CODE",
+            "alias": "Land Use Code"
+          },
+          {
+            "name": "SALE_PRICE",
+            "alias": "Sale Price",
+            "isnumber": true
+          },
+          {
+            "name": "SALE_YY",
+            "alias": "Sale Year"
+          },
+          {
+            "name": "SALE_MM",
+            "alias": "Sale Month"
+          },
+          {
+            "name": "SALE_DD",
+            "alias": "Sale Day"
+          },
+          {
+            "name": "TRANSIT_CODE",
+            "alias": "Transit Code"
+          },
+          {
+            "name": "APC_CODE",
+            "alias": "APC Code"
+          },
+          {
+            "name": "COMM_CAT",
+            "alias": "Commercial Category"
+          },
+          {
+            "name": "AGENT",
+            "alias": "Agent"
+          },
+          {
+            "name": "TOTAL_ASSESSMENT",
+            "alias": "Total Assessment",
+            "isnumber": true
+          },
+          {
+            "name": "LEGAL_1",
+            "alias": "Legal Description 1"
+          },
+          {
+            "name": "LEGAL_2",
+            "alias": "Legal Description 2"
+          },
+          {
+            "name": "ZONING",
+            "alias": "Zoning Code"
+          },
+          {
+            "name": "SALE_OR_BOOK",
+            "alias": "Sale or Book"
+          },
+          {
+            "name": "SALE_OR_PAGE",
+            "alias": "Sale or Page"
+          },
+          {
+            "name": "BASE_YR_VALUE",
+            "alias": "Base Year Value",
+            "isnumber": true
+          },
+          {
+            "name": "BASE_YR_VAL_CPI",
+            "alias": "Base Year Value w/ CPI",
+            "isnumber": true
+          },
+          {
+            "name": "CAMA_LAND_VALUE",
+            "alias": "CAMA Land Value",
+            "isnumber": true
+          },
+          {
+            "name": "CAMA_MISC_VALUE",
+            "alias": "CAMA Misc Value",
+            "isnumber": true
+          },
+          {
+            "name": "CAMA_BLDG_VALUE",
+            "alias": "CAMA Building Value",
+            "isnumber": true
+          },
+          {
+            "name": "CAMA_TOTAL_VALUE",
+            "alias": "CAMA Total Value",
+            "isnumber": true
+          },
+          {
+            "name": "CHTXFER_FILLER",
+            "alias": "CHTXFER Filler"
+          },
+          {
+            "name": "ADTAB_TAD",
+            "alias": "Tax Allocation District (TAD)"
+          },
+          {
+            "name": "ADTAB_TAD_BYV",
+            "alias": "TAD Base Year Value",
+            "isnumber": true
+          },
+          {
+            "name": "ADTAB_EZONE",
+            "alias": "Enterprise Zone"
+          },
+          {
+            "name": "GDATA_EZ",
+            "alias": "GData EZ"
+          },
+          {
+            "name": "TCR_DATE",
+            "alias": "TCR Date",
+            "isdate": true
+          },
+          {
+            "name": "STNUM",
+            "alias": "Street Number"
+          },
+          {
+            "name": "STSHORTNAM",
+            "alias": "Street Short Name"
+          },
+          {
+            "name": "STPREFIX",
+            "alias": "Street Prefix"
+          },
+          {
+            "name": "STUNIT",
+            "alias": "Unit Number"
+          },
+          {
+            "name": "STNAME",
+            "alias": "Street Name"
+          },
+          {
+            "name": "CALCAC",
+            "alias": "Calculated Acreage",
+            "isnumber": true
+          },
+          {
+            "name": "OWNERNAME",
+            "alias": "Owner Name"
+          },
+          {
+            "name": "FULLADDRESS",
+            "alias": "Full Address"
+          },
+          {
+            "name": "PROP_ADDRE2",
+            "alias": "Property Address 2"
+          },
+          {
+            "name": "ZIPCODE",
+            "alias": "Property Zip Code"
+          },
+          {
+            "name": "ZONEID",
+            "alias": "Calculated Zoning"
+          },
+          {
+            "name": "ZONE_DESC",
+            "alias": "Zoning Description"
+          },
+          {
+            "name": "ALDERID",
+            "alias": "Alderman",
+            "isnumber": true
+          },
+          {
+            "name": "COMMID",
+            "alias": "Commissioner",
+            "isnumber": true
+          },
+          {
+            "name": "NBHD_DESC",
+            "alias": "Neighborhood"
+          },
+          {
+            "name": "LANDUSE_DESC",
+            "alias": "Land Use"
+          },
+          {
+            "name": "FLOODID",
+            "alias": "Calculated Flood Zone"
+          },
+          {
+            "name": "ELEMENTARY",
+            "alias": "Elementary School"
+          },
+          {
+            "name": "MIDDLE",
+            "alias": "Middle School"
+          },
+          {
+            "name": "HIGH",
+            "alias": "High School"
+          },
+          {
+            "name": "VOT_PRECINCT",
+            "alias": "Voter Precinct"
+          },
+          {
+            "name": "STSUFFIX",
+            "alias": "Street Suffix"
+          },
+          {
+            "name": "ALDER_TXT",
+            "alias": "Alder Text"
+          },
+          {
+            "name": "NBHD_CODE",
+            "alias": "Neighborhood Code",
+            "isnumber": true
+          },
+          {
+            "name": "SHAPE_Length",
+            "alias": "Shape_Length",
+            "isnumber": true
+          },
+          {
+            "name": "SHAPE_Area",
+            "alias": "Shape_Area",
+            "isnumber": true
+          }
+        ]
+      },
+      "links": {
+        "link": [
+          {
+            "alias": "Property Card",
+            "disablelinksifnull": true,
+            "disableinpopup": false,
+            "popuptype": "text",
+            "content": "http://boa.chathamcounty.org/Home/PropertyRecordCards.aspx?PIN={PIN}",
+            "icon": ""
+          }
+        ]
+      },
+      "orderByFields": [],
+      "layersymbolfrom": "config"
+    }
+  ],
+  "initialView": "text",
+  "disabledtabs": [
+    "text",
+    "spatial",
+    "result"
+  ],
+  "enablePopupsOnResultClick": true,
+  "exportsearchurlchecked": true,
+  "limitsearch2mapextentchecked": false,
+  "autozoomtoresults": true,
+  "mouseovergraphics": false,
+  "bufferDefaults": {
+    "addtolegend": false,
+    "bufferUnits": {
+      "bufferUnit": [
+        {
+          "name": "UNIT_FOOT",
+          "label": "Feet"
+        },
+        {
+          "name": "UNIT_STATUTE_MILE",
+          "label": "Miles"
+        },
+        {
+          "name": "UNIT_METER",
+          "label": "Meter"
+        }
+      ]
+    },
+    "bufferDefaultValue": 5,
+    "bufferWKID": 102003,
+    "simplefillsymbol": {
+      "color": [
+        1,
+        185,
+        253,
+        128
+      ],
+      "outline": {
+        "color": [
+          1,
+          185,
+          253,
+          204
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "spatialrelationships": {
+    "spatialrelationship": [
+      {
+        "name": "esriSpatialRelContains",
+        "label": "entirely contained in"
+      },
+      {
+        "name": "esriSpatialRelIntersects",
+        "label": "intersected by"
+      },
+      {
+        "name": "esriSpatialRelEnvelopeIntersects",
+        "label": "intersected by envelope of"
+      }
+    ]
+  },
+  "graphicalsearchoptions": {
+    "enablepointselect": true,
+    "enablelineselect": true,
+    "enablepolylineselect": true,
+    "enableextentselect": true,
+    "enablecircleselect": true,
+    "enablepolyselect": true,
+    "enablefreehandpolyselect": true,
+    "showmultigraphicsgraphicaloption": true,
+    "showaddtolerancegraphicaloption": true,
+    "showaddsqltextgraphicaloption": false,
+    "showbuffergraphicaloption": true,
+    "buffercheckedbydefaultgraphicaloption": false,
+    "multipartgraphicsearchchecked": false,
+    "addpointtolerancechecked": false,
+    "toleranceforpointgraphicalselection": 5,
+    "keepgraphicalsearchenabled": false
+  },
+  "symbols": {
+    "simplemarkersymbol": null,
+    "picturemarkersymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriPMS",
+      "url": "http://sagis-10.mpc.local:3344/webappbuilder/apps/3/widgets/eSearch/http://sagis-10.mpc.local:3344/webappbuilder/apps/3/widgets/eSearch/http://static.arcgis.com/images/Symbols/Shapes/PurpleCircleLargeB.png",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADImlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFQ0ZGOEMxNEQzM0ExMUUwQUU5NUVFMEYwMTY0NzUwNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFQ0ZGOEMxNUQzM0ExMUUwQUU5NUVFMEYwMTY0NzUwNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjc5OEYzNzE1RDMzQTExRTBBRTk1RUUwRjAxNjQ3NTA1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjc5OEYzNzE2RDMzQTExRTBBRTk1RUUwRjAxNjQ3NTA1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQg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",
+      "contentType": "image/png",
+      "width": 17.75025,
+      "height": 17.75025
+    },
+    "simplelinesymbol": {
+      "color": [
+        255,
+        0,
+        225,
+        204
+      ],
+      "width": 3,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "simplefillsymbol": {
+      "color": [
+        255,
+        255,
+        0,
+        79
+      ],
+      "outline": {
+        "color": [
+          233,
+          14,
+          196,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  }
+}

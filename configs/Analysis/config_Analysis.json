@@ -1,0 +1,201 @@
+{
+  "analysisTools": [
+    {
+      "name": "AggregatePoints",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Aggregate Points"
+    },
+    {
+      "name": "CalculateDensity",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Calculate Density"
+    },
+    {
+      "name": "ConnectOriginsToDestinations",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Connect Origins to Destinations"
+    },
+    {
+      "name": "CreateBuffers",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Create Buffers"
+    },
+    {
+      "name": "CreateDriveTimeAreas",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Create Drive-Time Areas"
+    },
+    {
+      "name": "CreateViewshed",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Create Viewshed"
+    },
+    {
+      "name": "CreateWatersheds",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Create Watersheds"
+    },
+    {
+      "name": "DeriveNewLocations",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Derive New Locations"
+    },
+    {
+      "name": "DissolveBoundaries",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Dissolve Boundaries"
+    },
+    {
+      "name": "EnrichLayer",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Enrich Layer"
+    },
+    {
+      "name": "ExtractData",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "toolLabel": "Extract Data"
+    },
+    {
+      "name": "FindExistingLocations",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Find Existing Locations"
+    },
+    {
+      "name": "FindHotSpots",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Find Hot Spots"
+    },
+    {
+      "name": "FindNearest",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Find Nearest"
+    },
+    {
+      "name": "FindSimilarLocations",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Find Similar Locations"
+    },
+    {
+      "name": "InterpolatePoints",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Interpolate Points"
+    },
+    {
+      "name": "MergeLayers",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Merge Layers"
+    },
+    {
+      "name": "OverlayLayers",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Overlay Layers"
+    },
+    {
+      "name": "PlanRoutes",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Plan Routes"
+    },
+    {
+      "name": "SummarizeNearby",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Summarize Nearby"
+    },
+    {
+      "name": "SummarizeWithin",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Summarize Within"
+    },
+    {
+      "name": "TraceDownstream",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Trace Downstream"
+    }
+  ]
+}
